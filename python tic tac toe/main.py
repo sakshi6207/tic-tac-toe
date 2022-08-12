@@ -2,15 +2,15 @@ def sum(a,b,c):
     return a+b+c
 
 def printBoard(xstate,zstate):
-    z='x' if xstate[0] else ('0' if zstate[0] else 0)
-    o='x' if xstate[1] else ('0' if zstate[1] else 1)
-    t='x' if xstate[2] else ('0' if zstate[2] else 2)
-    T='x' if xstate[3] else ('0' if zstate[3] else 3)
-    f='x' if xstate[4] else ('0' if zstate[4] else 4)
-    F='x' if xstate[5] else ('0' if zstate[5] else 5)
-    s='x' if xstate[6] else ('0' if zstate[6] else 6)
-    S='x' if xstate[7] else ('0' if zstate[7] else 7)
-    e='x' if xstate[8] else ('0' if zstate[8] else 8)
+    z='x' if xstate[0] else ('0' if zstate[0] else 0) //put 0 at the index position 0
+    o='x' if xstate[1] else ('0' if zstate[1] else 1) //put 1 at the index position 1
+    t='x' if xstate[2] else ('0' if zstate[2] else 2) //put 2 at the index position 2
+    T='x' if xstate[3] else ('0' if zstate[3] else 3) //put 3 at the index position 3
+    f='x' if xstate[4] else ('0' if zstate[4] else 4) //put 4 at the index position 4
+    F='x' if xstate[5] else ('0' if zstate[5] else 5) //put 5 at the index position 5
+    s='x' if xstate[6] else ('0' if zstate[6] else 6) //put 6 at the index position 6
+    S='x' if xstate[7] else ('0' if zstate[7] else 7) //put 7 at the index position 7
+    e='x' if xstate[8] else ('0' if zstate[8] else 8) //put 8 at the index position 8
     print(f"{z}|{o}|{t}")
     print(f"-| |-")
     print(f"{T}|{f}|{F}")
